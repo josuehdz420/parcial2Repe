@@ -4,7 +4,7 @@ services:
     container_name: parcial2Repe
     restart: always
     volumes:
-      - ./:/var/www/html
+      - ./proyectos:/var/www/html
     ports:
       - "8089:80"
     networks:
